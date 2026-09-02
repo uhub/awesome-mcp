@@ -7,31 +7,20 @@ A curated list of awesome MCP frameworks, libraries and software.
 	* [Examples and Exercises](#examples-and-exercises)
 	* [Awesome Lists and Collections](#awesome-lists-and-collections)
 * Language and Tooling
-	* [Compilers and Interpreters](#compilers-and-interpreters)
-	* [Build Systems](#build-systems)
-	* [Package Management](#package-management)
 	* [Linters and Formatters](#linters-and-formatters)
 	* [Debugging and Profiling](#debugging-and-profiling)
 	* [Editor and IDE Support](#editor-and-ide-support)
 	* [Version Control](#version-control)
 * Web
 	* [Web Frameworks](#web-frameworks)
-	* [HTTP and Networking Clients](#http-and-networking-clients)
 	* [API and GraphQL](#api-and-graphql)
 	* [Frontend and UI Components](#frontend-and-ui-components)
-	* [Web Servers and Proxies](#web-servers-and-proxies)
 	* [Scraping and Crawling](#scraping-and-crawling)
 * Data and Storage
-	* [Databases](#databases)
 	* [Database Clients and ORMs](#database-clients-and-orms)
-	* [Serialization and Formats](#serialization-and-formats)
-	* [Caching and Queues](#caching-and-queues)
 	* [Search and Indexing](#search-and-indexing)
 * Machine Learning and AI
 	* [LLM and Inference](#llm-and-inference)
-	* [Machine Learning Frameworks](#machine-learning-frameworks)
-	* [Computer Vision](#computer-vision)
-	* [Natural Language Processing](#natural-language-processing)
 	* [Data Science and Analytics](#data-science-and-analytics)
 * AI Agents
 	* [Agent Frameworks and Runtimes](#agent-frameworks-and-runtimes)
@@ -41,12 +30,10 @@ A curated list of awesome MCP frameworks, libraries and software.
 	* [Evaluation and Benchmarks](#evaluation-and-benchmarks)
 * Networking and Distributed
 	* [Networking](#networking)
-	* [RPC and Messaging](#rpc-and-messaging)
 	* [Distributed Systems](#distributed-systems)
 	* [Cloud and Infrastructure](#cloud-and-infrastructure)
 	* [Monitoring and Observability](#monitoring-and-observability)
 * User Interface
-	* [GUI Toolkits](#gui-toolkits)
 	* [Mobile](#mobile)
 	* [Applications and End User Tools](#applications-and-end-user-tools)
 * Graphics and Media
@@ -55,17 +42,12 @@ A curated list of awesome MCP frameworks, libraries and software.
 	* [Audio](#audio)
 	* [Image and Video](#image-and-video)
 * Security
-	* [Cryptography](#cryptography)
 	* [Security Tools](#security-tools)
 	* [Authentication and Authorization](#authentication-and-authorization)
 	* [Reverse Engineering](#reverse-engineering)
-* Testing and Quality
-	* [Testing](#testing)
 * Utilities
-	* [Command Line Tools](#command-line-tools)
 	* [Text Processing](#text-processing)
 	* [Files and Operating System](#files-and-operating-system)
-	* [Date and Time](#date-and-time)
 	* [Automation and Scripting](#automation-and-scripting)
 * Systems and Hardware
 	* [Embedded and Firmware](#embedded-and-firmware)
@@ -75,7 +57,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * Science and Math
 	* [Mathematics](#mathematics)
 	* [Scientific Computing](#scientific-computing)
-	* [Formal Methods and Proofs](#formal-methods-and-proofs)
 * [Other](#other)
 
 ## Learning and Reference
@@ -137,23 +118,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [0xBabatunde/awesome-seo-mcp](https://github.com/0xBabatunde/awesome-seo-mcp) - A project focused on Model Context Protocol (MCP) and its applications in Search Engine Optimization (SEO).
 
 ## Language and Tooling
-
-### Compilers and Interpreters
-
-* [zig-wasm/zig-mcp](https://github.com/zig-wasm/zig-mcp) - Model Context Protocol (MCP) server that provides up-to-date documentation for the Zig programming language standard library and builtin functions
-
-### Build Systems
-
-* [getsentry/XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) - A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
-* [giginet/xcodeproj-mcp-server](https://github.com/giginet/xcodeproj-mcp-server) - A Model Context Protocol Server to manipulate *.xcodeproj
-* [mmadfox/go-crx3](https://github.com/mmadfox/go-crx3) - Chrome browser extension tools with MCP integration. Pack, unpack, zip, unzip, download, and manage CRX3 extensions – now AI-compatible via Model Context Protocol.
-* [IlyaGulya/gradle-mcp-server](https://github.com/IlyaGulya/gradle-mcp-server) - A Model Context Protocol (MCP) server to enable AI tools to interact with Gradle projects programmatically. *(archived)*
-
-### Package Management
-
-* [utensils/mcp-nixos](https://github.com/utensils/mcp-nixos) - MCP-NixOS - Model Context Protocol Server for NixOS resources
-* [jfrog/mcp-jfrog](https://github.com/jfrog/mcp-jfrog) - Deprecated - Model Context Protocol (MCP) Server for the JFrog Platform API, enabling repository management, build tracking, release lifecycle management, and more.
-* [nihalxkumar/arch-mcp](https://github.com/nihalxkumar/arch-mcp) - Arch Linux MCP (Model Context Protocol) Server
 
 ### Linters and Formatters
 
@@ -217,11 +181,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [gavdilabs/cap-mcp-plugin](https://github.com/gavdilabs/cap-mcp-plugin) - MCP (Model Context Protocol) server plugin for CAP NodeJS
 * [zeromicro/mcp-zero](https://github.com/zeromicro/mcp-zero) - Model Context Protocol (MCP) server for go-zero framework - Generate APIs, RPC services, and models with AI assistance.
 
-### HTTP and Networking Clients
-
-* [zcaceres/fetch-mcp](https://github.com/zcaceres/fetch-mcp) - A flexible HTTP fetching Model Context Protocol server.
-* [DeanWard/HAL](https://github.com/DeanWard/HAL) - HAL (HTTP API Layer) is a Model Context Protocol (MCP) server that provides HTTP API capabilities to Large Language Models.
-
 ### API and GraphQL
 
 * [blurrah/mcp-graphql](https://github.com/blurrah/mcp-graphql) - Model Context Protocol server for GraphQL
@@ -248,13 +207,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [tercumantanumut/sunnysideFigma-Context-MCP](https://github.com/tercumantanumut/sunnysideFigma-Context-MCP) - A comprehensive Model Context Protocol (MCP) server that bridges Figma designs with AI development workflows. It provides 30 specialized tools for extracting pixel-perfect code, assets, and component structures directly from Figma designs.
 * [Sheshiyer/framer-plugin-mcp](https://github.com/Sheshiyer/framer-plugin-mcp) - A Model Context Protocol (MCP) server for creating and managing Framer plugins with web3 capabilities
 * [yamanoku/baseline-mcp-server](https://github.com/yamanoku/baseline-mcp-server) - 特定のWeb APIに関するBaselineの状況を提供するModel Context Protocolサーバー
-
-### Web Servers and Proxies
-
-* [7gugu/whistle-mcp](https://github.com/7gugu/whistle-mcp) - A Whistle proxy management tool based on Model Context Protocol that allows AI assistants to directly control local Whistle proxy servers, simplifying network debugging, API testing, and proxy rule configuration through natural language interaction.
-* [Kong/mcp-konnect](https://github.com/Kong/mcp-konnect) - A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics. *(archived)*
-* [fastly/mcp](https://github.com/fastly/mcp) - Model Context Protocol (MCP) server for AI-powered Fastly CDN management.
-* [api7/apisix-mcp](https://github.com/api7/apisix-mcp) - APISIX Model Context Protocol (MCP) server is used to bridge large language models (LLMs) with the APISIX Admin API.
 
 ### Scraping and Crawling
 
@@ -300,11 +252,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 
 ## Data and Storage
 
-### Databases
-
-* [emekaokoye/mcp-rdf-explorer](https://github.com/emekaokoye/mcp-rdf-explorer) - A Model Context Protocol (MCP) server that provides conversational interface for the exploration and analysis of RDF (Turtle) based Knowledge Graph in Local File mode or SPARQL Endpoint mode.
-* [zzaebok/mcp-wikidata](https://github.com/zzaebok/mcp-wikidata) - A server implementation for Wikidata API using the Model Context Protocol (MCP).
-
 ### Database Clients and ORMs
 
 * [benborla/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql) - A Model Context Protocol server that provides read-only access to MySQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.
@@ -339,17 +286,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [askdba/mysql-mcp-server](https://github.com/askdba/mysql-mcp-server) - MySQL Server implementation for Model Context Protocol (MCP) written in Go.
 * [FalkorDB/FalkorDB-MCPServer](https://github.com/FalkorDB/FalkorDB-MCPServer) - FalkorDB-MCPServer is an MCP (Model Context Protocol) server that connects LLMs to FalkorDB
 * [Altinity/altinity-mcp](https://github.com/Altinity/altinity-mcp) - Model Context Protocol server to use ClickHouse® databases in your AI agents
-
-### Serialization and Formats
-
-* [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) - A Model Context Protocol server for Excel file manipulation
-* [negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server) - A Model Context Protocol (MCP) server that reads and writes MS Excel data
-
-### Caching and Queues
-
-* [kanapuli/mcp-kafka](https://github.com/kanapuli/mcp-kafka) - A Model Context Protocol Server to perform Kafka client operations
-* [tuannvm/kafka-mcp-server](https://github.com/tuannvm/kafka-mcp-server) - A Model Context Protocol (MCP) server for Apache Kafka implemented in Go, leveraging franz-go and mcp-go.
-* [sinadarbouy/mcp-nats](https://github.com/sinadarbouy/mcp-nats) - A Model Context Protocol (MCP) server for NATS messaging system integration
 
 ### Search and Indexing
 
@@ -396,22 +332,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [deepfates/mcp-replicate](https://github.com/deepfates/mcp-replicate) - Model Context Protocol server for Replicate's API *(archived)*
 * [kamelirzouni/MCP-server-Deepseek_R1](https://github.com/kamelirzouni/MCP-server-Deepseek_R1) - A Model Context Protocol (MCP) server implementation connecting Claude Desktop with DeepSeek's language models (R1/V3)
 * [AI-FE/dify-mcp-server](https://github.com/AI-FE/dify-mcp-server) - A Model Context Protocol server for Dify
-
-### Machine Learning Frameworks
-
-* [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) - The Optuna MCP Server is a Model Context Protocol (MCP) server to interact with Optuna APIs.
-
-### Computer Vision
-
-* [GongRzhe/opencv-mcp-server](https://github.com/GongRzhe/opencv-mcp-server) - OpenCV MCP Server provides OpenCV's image and video processing capabilities through the Model Context Protocol (MCP). Access powerful computer vision tools for tasks ranging from basic image manipulation to advanced object detection and tracking. *(archived)*
-* [IDEA-Research/DINO-X-MCP](https://github.com/IDEA-Research/DINO-X-MCP) - Official DINO-X Model Context Protocol (MCP) server that empowers LLMs with real-world visual perception through image object detection, localization, and captioning APIs.
-* [tan-yong-sheng/ai-vision-mcp](https://github.com/tan-yong-sheng/ai-vision-mcp) - A Model Context Protocol (MCP) server that provides vision capabilities to analyze image and video
-* [everaldo/mcp-mistral-ocr](https://github.com/everaldo/mcp-mistral-ocr) - Model Context Protocol (MCP) Server for Mistral OCR API
-
-### Natural Language Processing
-
-* [DeepL/deepl-mcp-server](https://github.com/DeepL/deepl-mcp-server) - A Model Context Protocol (MCP) server that provides translation capabilities using the DeepL API.
-* [Text2Go/ai-humanizer-mcp-server](https://github.com/Text2Go/ai-humanizer-mcp-server) - A powerful Model Context Protocol (MCP) server that helps refine AI-generated content to sound more natural and human-like. Built with advanced AI detection and text enhancement capabilities.
 
 ### Data Science and Analytics
 
@@ -681,8 +601,8 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [mcp-shark/mcp-shark](https://github.com/mcp-shark/mcp-shark) - Wireshark-like forensic analysis for Model Context Protocol communications Capture, inspect, and investigate all HTTP requests and responses between your IDE and MCP servers
 * [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse) - Model Context Protocol (MCP) Server for Langfuse Prompt Management. This server allows you to access and manage your Langfuse prompts through the Model Context Protocol.
 * [mclenhard/mcp-evals](https://github.com/mclenhard/mcp-evals) - A Node.js package and GitHub Action for evaluating MCP (Model Context Protocol) tool implementations using LLM-based scoring. This helps ensure your MCP server's tools are working correctly and performing well.
-* [avivsinai/langfuse-mcp](https://github.com/avivsinai/langfuse-mcp) - A Model Context Protocol (MCP) server for Langfuse, enabling AI agents to query Langfuse trace data for enhanced debugging and observability
 * [andreisirbu91-lab/MCPSpend](https://github.com/andreisirbu91-lab/MCPSpend) - Real-time cost observability for Model Context Protocol (MCP) tool calls. Wraps any MCP server, attributes spend per tool/project/customer. Free tier 25K calls/mo. EU-hosted
+* [avivsinai/langfuse-mcp](https://github.com/avivsinai/langfuse-mcp) - A Model Context Protocol (MCP) server for Langfuse, enabling AI agents to query Langfuse trace data for enhanced debugging and observability
 * [bitDive/mcp-server](https://github.com/bitDive/mcp-server) - BitDive Model Context Protocol (MCP) server. The Autonomous Quality Loop for AI agents. Provides real runtime context, before/after trace comparison, and integration testing workflows.
 * [mcp-tool-bench/MCPToolBenchPP](https://github.com/mcp-tool-bench/MCPToolBenchPP) - MCPToolBench++ MCP Model Context Protocol Tool Use Benchmark on AI Agent and Model Tool Use Ability
 
@@ -698,10 +618,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [jayimu/Wireshark_mcp](https://github.com/jayimu/Wireshark_mcp) - Wireshark MCP 是一个基于 Model Context Protocol (MCP) 的服务器，允许 AI 助手通过 tshark 命令行工具进行交互。该工具提供了丰富的网络数据分析功能，支持实时抓包和离线分析。
 * [imprvhub/mcp-domain-availability](https://github.com/imprvhub/mcp-domain-availability) - A Model Context Protocol (MCP) server that enables Claude Desktop to check domain availability across 50+ TLDs. Features DNS/WHOIS verification, bulk checking, and smart suggestions. Zero-clone installation via uvx.
 * [bingal/FastDomainCheck-MCP-Server](https://github.com/bingal/FastDomainCheck-MCP-Server) - A Model Context Protocol for checking domain name registration status in bulk.
-
-### RPC and Messaging
-
-* [shanejonas/openrpc-mcp-server](https://github.com/shanejonas/openrpc-mcp-server) - A Model Context Protocol (MCP) server that provides JSON-RPC functionality through OpenRPC.
 
 ### Distributed Systems
 
@@ -758,10 +674,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [SailingCoder/grafana-mcp-analyzer](https://github.com/SailingCoder/grafana-mcp-analyzer) - 让AI助手直接分析你的Grafana监控数据 - A Model Context Protocol server for Grafana data analysis
 
 ## User Interface
-
-### GUI Toolkits
-
-* [hypothesi/mcp-server-tauri](https://github.com/hypothesi/mcp-server-tauri) - A Model Context Protocol (MCP) server and plugin for Tauri v2 development
 
 ### Mobile
 
@@ -875,10 +787,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 
 ## Security
 
-### Cryptography
-
-* [deeppowers/deeppowers](https://github.com/deeppowers/deeppowers) - DEEPPOWERS is a Fully Homomorphic Encryption (FHE) framework built for MCP (Model Context Protocol), aiming to provide end-to-end privacy protection and high-efficiency computation for the upstream and downstream ecosystem of the MCP protocol.
-
 ### Security Tools
 
 * [cyproxio/mcp-for-security](https://github.com/cyproxio/mcp-for-security) - MCP for Security: A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows. *(archived)*
@@ -944,20 +852,7 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [bethington/cheat-engine-server-python](https://github.com/bethington/cheat-engine-server-python) - MCP Cheat Engine Server — provides safe, structured read-only access to memory analysis and debugging functionality through the Model Context Protocol (MCP). For developers, security researchers, and game modders.
 * [bornpresident/Volatility-MCP-Server](https://github.com/bornpresident/Volatility-MCP-Server) - A Model Context Protocol (MCP) server that integrates Volatility 3 memory forensics framework with Claude
 
-## Testing and Quality
-
-### Testing
-
-* [microsoft/AutoGenesis](https://github.com/microsoft/AutoGenesis) - AutoGenesis is an AI-powered automated testing framework based on Model Context Protocol (MCP), supporting multiple platforms including desktop applications (Windows/macOS) and mobile applications (iOS/Android).
-* [JustasMonkev/mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner) - An MCP (Model Context Protocol) server for performing accessibility audits on webpages using axe-core.
-* [priyankark/a11y-mcp](https://github.com/priyankark/a11y-mcp) - An MCP (Model Context Protocol) server for performing accessibility audits on webpages using axe-core. Use the results in an agentic loop with your favorite AI assistants (Amp/Cline/Cursor/GH Copilot) and let them fix a11y issues for you!
-
 ## Utilities
-
-### Command Line Tools
-
-* [jacob-bd/gemini-notebook-mcp-cli](https://github.com/jacob-bd/gemini-notebook-mcp-cli) - Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.
-* [tanaikech/ggsrun](https://github.com/tanaikech/ggsrun) - High-performance Google Drive CLI and Model Context Protocol (MCP) Server for LLM/AI agents. Natively execute Google Apps Script (GAS) under a secure whitelisted runtime sandbox, automate transfers, and manage Drive infrastructure.
 
 ### Text Processing
 
@@ -991,11 +886,6 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [54yyyu/code-mcp](https://github.com/54yyyu/code-mcp) - Code-MCP: Connect Claude AI to your development environment through the Model Context Protocol (MCP), enabling terminal commands and file operations through the AI interface.
 * [devizor/macOS-Notification-MCP](https://github.com/devizor/macOS-Notification-MCP) - macOS Notification MCP enables AI assistants to trigger native macOS sounds, visual notifications, and text-to-speech. Built for Claude and other AI models using the Model Context Protocol.
 * [hiraishikentaro/wezterm-mcp](https://github.com/hiraishikentaro/wezterm-mcp) - About A Model Context Protocol server that executes commands in the current WezTerm session
-
-### Date and Time
-
-* [dominik1001/caldav-mcp](https://github.com/dominik1001/caldav-mcp) - 🗓️ A CalDAV Model Context Protocol (MCP) server to expose calendar operations as tools for AI assistants.
-* [PhialsBasement/scheduler-mcp](https://github.com/PhialsBasement/scheduler-mcp) - MCP Scheduler is a task automation server that lets you schedule shell commands, API calls, AI tasks, and desktop notifications using cron expressions. Built with Model Context Protocol for seamless integration with Claude Desktop and other AI assistants.
 
 ### Automation and Scripting
 
@@ -1257,33 +1147,68 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [helenkwok/openbim-mcp](https://github.com/helenkwok/openbim-mcp) - Model Context Protocol (MCP) server for openBIM
 * [zhaoyouj/mcp-slicer](https://github.com/zhaoyouj/mcp-slicer) - A Model Context Protocol server for 3D Slicer integration
 
-### Formal Methods and Proofs
-
-* [angrysky56/mcp-logic](https://github.com/angrysky56/mcp-logic) - Fully functional AI Logic Calculator utilizing Prover9/Mace4 via Python based Model Context Protocol (MCP-Server)- tool for Windows, Linux, Claude App etc
-
 ## Other
 
+* [getsentry/XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) - A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
+* [jacob-bd/gemini-notebook-mcp-cli](https://github.com/jacob-bd/gemini-notebook-mcp-cli) - Programmatic access to Gemini Notebook - via command-line interface (CLI), Model Context Protocol (MCP) server, and AI agent skills.
+* [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) - A Model Context Protocol server for Excel file manipulation
 * [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp) - This is a 12306 ticket search server based on the Model Context Protocol (MCP).
+* [negokaz/excel-mcp-server](https://github.com/negokaz/excel-mcp-server) - A Model Context Protocol (MCP) server that reads and writes MS Excel data
+* [zcaceres/fetch-mcp](https://github.com/zcaceres/fetch-mcp) - A flexible HTTP fetching Model Context Protocol server.
+* [utensils/mcp-nixos](https://github.com/utensils/mcp-nixos) - MCP-NixOS - Model Context Protocol Server for NixOS resources
 * [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp) - A Model Context Protocol (MCP) server that connects to Strava API, providing tools to access Strava data through LLMs
 * [drfccv/mcp-server-12306](https://github.com/drfccv/mcp-server-12306) - 12306 MCP Server​​ 是一个基于 ​​Model Context Protocol (MCP)​​ 的高性能火车票查询后端系统。它通过标准化接口提供官方 12306 的实时数据服务，包括余票查询、车站信息、列车经停站、中转换乘方案等核心功能。
 * [mvilanova/intervals-mcp-server](https://github.com/mvilanova/intervals-mcp-server) - Model Context Protocol (MCP) server for connecting Claude and ChatGPT with the Intervals.icu API.
 * [ErickWendel/erickwendel-contributions-mcp](https://github.com/ErickWendel/erickwendel-contributions-mcp) - A Model Context Protocol (MCP) server that provides tools to query Erick Wendel's contributions across different platforms
+* [hypothesi/mcp-server-tauri](https://github.com/hypothesi/mcp-server-tauri) - A Model Context Protocol (MCP) server and plugin for Tauri v2 development
+* [deeppowers/deeppowers](https://github.com/deeppowers/deeppowers) - DEEPPOWERS is a Fully Homomorphic Encryption (FHE) framework built for MCP (Model Context Protocol), aiming to provide end-to-end privacy protection and high-efficiency computation for the upstream and downstream ecosystem of the MCP protocol.
 * [ezh0v/weather-mcp-server](https://github.com/ezh0v/weather-mcp-server) - A lightweight Model Context Protocol (MCP) server that enables AI assistants like Claude to retrieve and interpret real-time weather data. Discuss on Hacker News:
 * [DevnorsAI/devnors-data-mcp](https://github.com/DevnorsAI/devnors-data-mcp) - Devnors Data - MCP Server: MCP,Model Context Protocol,Claude,Cursor,WorkBuddy,接口,数据API,裁判文书,Legal Case,法律法规,法条,Law Article,企业工商,Company Registry,企业年报,Annual Report,税号开票,Tax Invoice,失信核查,被执行人,关键词指数,微信指数,WeChat Index,热搜榜,微博热搜,抖音热搜,快递查询,Express Tracking,统一查询,/v1/data/query,API Key,AI Agent,LLM
+* [tanaikech/ggsrun](https://github.com/tanaikech/ggsrun) - High-performance Google Drive CLI and Model Context Protocol (MCP) Server for LLM/AI agents. Natively execute Google Apps Script (GAS) under a secure whitelisted runtime sandbox, automate transfers, and manage Drive infrastructure.
+* [zig-wasm/zig-mcp](https://github.com/zig-wasm/zig-mcp) - Model Context Protocol (MCP) server that provides up-to-date documentation for the Zig programming language standard library and builtin functions
 * [cobanov/teslamate-mcp](https://github.com/cobanov/teslamate-mcp) - A Model Context Protocol (MCP) server that provides access to your TeslaMate database, allowing AI assistants to query Tesla vehicle data and analytics.
+* [giginet/xcodeproj-mcp-server](https://github.com/giginet/xcodeproj-mcp-server) - A Model Context Protocol Server to manipulate *.xcodeproj
+* [microsoft/AutoGenesis](https://github.com/microsoft/AutoGenesis) - AutoGenesis is an AI-powered automated testing framework based on Model Context Protocol (MCP), supporting multiple platforms including desktop applications (Windows/macOS) and mobile applications (iOS/Android).
+* [jfrog/mcp-jfrog](https://github.com/jfrog/mcp-jfrog) - Deprecated - Model Context Protocol (MCP) Server for the JFrog Platform API, enabling repository management, build tracking, release lifecycle management, and more.
+* [DeepL/deepl-mcp-server](https://github.com/DeepL/deepl-mcp-server) - A Model Context Protocol (MCP) server that provides translation capabilities using the DeepL API.
+* [GongRzhe/opencv-mcp-server](https://github.com/GongRzhe/opencv-mcp-server) - OpenCV MCP Server provides OpenCV's image and video processing capabilities through the Model Context Protocol (MCP). Access powerful computer vision tools for tasks ranging from basic image manipulation to advanced object detection and tracking. *(archived)*
+* [IDEA-Research/DINO-X-MCP](https://github.com/IDEA-Research/DINO-X-MCP) - Official DINO-X Model Context Protocol (MCP) server that empowers LLMs with real-world visual perception through image object detection, localization, and captioning APIs.
+* [dominik1001/caldav-mcp](https://github.com/dominik1001/caldav-mcp) - 🗓️ A CalDAV Model Context Protocol (MCP) server to expose calendar operations as tools for AI assistants.
 * [simovilab/infobus-mcp](https://github.com/simovilab/infobus-mcp) - Model Context Protocol server enabling AI assistants to access transit information through standardized interfaces
+* [optuna/optuna-mcp](https://github.com/optuna/optuna-mcp) - The Optuna MCP Server is a Model Context Protocol (MCP) server to interact with Optuna APIs.
+* [kanapuli/mcp-kafka](https://github.com/kanapuli/mcp-kafka) - A Model Context Protocol Server to perform Kafka client operations
 * [syyuan14/sh-disney-mcp](https://github.com/syyuan14/sh-disney-mcp) - sh-disney-mcp 是一个基于 Model Context Protocol (MCP) 的mcp server，旨在通过标准化的接口，帮助大模型快速获取上海迪士尼乐园的门票价格和售卖状态信息
+* [tan-yong-sheng/ai-vision-mcp](https://github.com/tan-yong-sheng/ai-vision-mcp) - A Model Context Protocol (MCP) server that provides vision capabilities to analyze image and video
 * [lsd-so/lsd-mcp](https://github.com/lsd-so/lsd-mcp) - LSD Model Context Protocol
 * [pab1it0/tripadvisor-mcp](https://github.com/pab1it0/tripadvisor-mcp) - A Model Context Protocol (MCP) server for Tripadvisor Content API. This provides access to Tripadvisor location data, reviews, and photos through standardized MCP interfaces, allowing AI assistants to search for travel destinations and experiences.
 * [r-huijts/ns-mcp-server](https://github.com/r-huijts/ns-mcp-server) - A Model Context Protocol (MCP) server that provides access to NS (Dutch Railways) travel information through Claude AI. This server enables Claude to fetch real-time train travel information and disruptions using the official Dutch NS API.
 * [isdaniel/mcp_weather_server](https://github.com/isdaniel/mcp_weather_server) - A Model Context Protocol (MCP) server that provides weather information using the Open-Meteo API.
+* [Text2Go/ai-humanizer-mcp-server](https://github.com/Text2Go/ai-humanizer-mcp-server) - A powerful Model Context Protocol (MCP) server that helps refine AI-generated content to sound more natural and human-like. Built with advanced AI detection and text enhancement capabilities.
 * [donghyun-chae/mcp-amadeus](https://github.com/donghyun-chae/mcp-amadeus) - Amadeus MCP(Model Context Protocol) Server
 * [guillochon/mlb-api-mcp](https://github.com/guillochon/mlb-api-mcp) - A Model Context Protocol (MCP) server that provides comprehensive access to MLB statistics and baseball data through a FastMCP-based interface.
+* [PhialsBasement/scheduler-mcp](https://github.com/PhialsBasement/scheduler-mcp) - MCP Scheduler is a task automation server that lets you schedule shell commands, API calls, AI tasks, and desktop notifications using cron expressions. Built with Model Context Protocol for seamless integration with Claude Desktop and other AI assistants.
 * [daipendency/daipendency-mcp](https://github.com/daipendency/daipendency-mcp) - Model Context Protocol server for Daipendency
 * [arjunprabhulal/mcp-gemini-search](https://github.com/arjunprabhulal/mcp-gemini-search) - Model Context Protocol (MCP) with Gemini 2.5 Pro. Convert conversational queries into flight searches using Gemini's function calling capabilities and MCP's flight search tools
+* [JustasMonkev/mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner) - An MCP (Model Context Protocol) server for performing accessibility audits on webpages using axe-core.
+* [mmadfox/go-crx3](https://github.com/mmadfox/go-crx3) - Chrome browser extension tools with MCP integration. Pack, unpack, zip, unzip, download, and manage CRX3 extensions – now AI-compatible via Model Context Protocol.
+* [nihalxkumar/arch-mcp](https://github.com/nihalxkumar/arch-mcp) - Arch Linux MCP (Model Context Protocol) Server
+* [tuannvm/kafka-mcp-server](https://github.com/tuannvm/kafka-mcp-server) - A Model Context Protocol (MCP) server for Apache Kafka implemented in Go, leveraging franz-go and mcp-go.
+* [emekaokoye/mcp-rdf-explorer](https://github.com/emekaokoye/mcp-rdf-explorer) - A Model Context Protocol (MCP) server that provides conversational interface for the exploration and analysis of RDF (Turtle) based Knowledge Graph in Local File mode or SPARQL Endpoint mode.
 * [tomtom-international/tomtom-maps-mcp](https://github.com/tomtom-international/tomtom-maps-mcp) - A Model Context Protocol (MCP) server providing TomTom's location services, search, routing, and traffic data to AI agents.
+* [priyankark/a11y-mcp](https://github.com/priyankark/a11y-mcp) - An MCP (Model Context Protocol) server for performing accessibility audits on webpages using axe-core. Use the results in an agentic loop with your favorite AI assistants (Amp/Cline/Cursor/GH Copilot) and let them fix a11y issues for you!
+* [sinadarbouy/mcp-nats](https://github.com/sinadarbouy/mcp-nats) - A Model Context Protocol (MCP) server for NATS messaging system integration
 * [OkGoDoIt/beemcp](https://github.com/OkGoDoIt/beemcp) - BeeMCP: an unofficial Model Context Protocol (MCP) server that connects your Bee wearable lifelogger to AI via the Model Context Protocol
+* [zzaebok/mcp-wikidata](https://github.com/zzaebok/mcp-wikidata) - A server implementation for Wikidata API using the Model Context Protocol (MCP).
+* [IlyaGulya/gradle-mcp-server](https://github.com/IlyaGulya/gradle-mcp-server) - A Model Context Protocol (MCP) server to enable AI tools to interact with Gradle projects programmatically. *(archived)*
 * [sunsetcoder/flightradar24-mcp-server](https://github.com/sunsetcoder/flightradar24-mcp-server) - Model Context Protocol server for Flight Tracking
+* [angrysky56/mcp-logic](https://github.com/angrysky56/mcp-logic) - Fully functional AI Logic Calculator utilizing Prover9/Mace4 via Python based Model Context Protocol (MCP-Server)- tool for Windows, Linux, Claude App etc
 * [caiyunapp/mcp-caiyun-weather](https://github.com/caiyunapp/mcp-caiyun-weather) - A Model Context Protocol (MCP) server for Caiyun (ColorfulClouds) Weather.
+* [7gugu/whistle-mcp](https://github.com/7gugu/whistle-mcp) - A Whistle proxy management tool based on Model Context Protocol that allows AI assistants to directly control local Whistle proxy servers, simplifying network debugging, API testing, and proxy rule configuration through natural language interaction.
 * [fysh1010/mcp-server-fanqie](https://github.com/fysh1010/mcp-server-fanqie) - 番茄小说 MCP 服务器 - 为番茄小说提供 Model Context Protocol 服务
+* [Kong/mcp-konnect](https://github.com/Kong/mcp-konnect) - A Model Context Protocol (MCP) server for interacting with Kong Konnect APIs, allowing AI assistants to query and analyze Kong Gateway configurations, traffic, and analytics. *(archived)*
 * [arjunprabhulal/mcp-flight-search](https://github.com/arjunprabhulal/mcp-flight-search) - MCP Server implementation for the Model Context Protocol (MCP) enabling AI tool usage - Realtime Flight Search
+* [shanejonas/openrpc-mcp-server](https://github.com/shanejonas/openrpc-mcp-server) - A Model Context Protocol (MCP) server that provides JSON-RPC functionality through OpenRPC.
+* [everaldo/mcp-mistral-ocr](https://github.com/everaldo/mcp-mistral-ocr) - Model Context Protocol (MCP) Server for Mistral OCR API
+* [fastly/mcp](https://github.com/fastly/mcp) - Model Context Protocol (MCP) server for AI-powered Fastly CDN management.
+* [api7/apisix-mcp](https://github.com/api7/apisix-mcp) - APISIX Model Context Protocol (MCP) server is used to bridge large language models (LLMs) with the APISIX Admin API.
+* [DeanWard/HAL](https://github.com/DeanWard/HAL) - HAL (HTTP API Layer) is a Model Context Protocol (MCP) server that provides HTTP API capabilities to Large Language Models.
