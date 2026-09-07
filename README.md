@@ -710,6 +710,8 @@ A curated list of awesome MCP frameworks, libraries and software.
 
 ## Graphics and Media
 
+* [runapi-ai/mcp](https://github.com/runapi-ai/mcp) - Browse models and run image, video, music, speech, and other model API jobs through RunAPI
+
 ### Graphics and Rendering
 
 * [lgazo/drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server) - Draw.io Model Context Protocol (MCP) Server
