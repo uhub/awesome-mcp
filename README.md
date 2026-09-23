@@ -774,6 +774,7 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [haltakov/meme-mcp](https://github.com/haltakov/meme-mcp) - A simple Model Context Protocol (MCP) server for generating memes using the ImgFlip API
 * [PixVerseAI/PixVerse-MCP](https://github.com/PixVerseAI/PixVerse-MCP) - Official PixVerse Model Context Protocol (MCP) server that enables interaction with powerful AI video generation APIs.
 * [savethepolarbears/google-photos-mcp](https://github.com/savethepolarbears/google-photos-mcp) - A Model Context Protocol repository for Google Photos API
+* [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) - MIT-licensed, local-first TypeScript CLI and MCP toolkit for coding agents to compose, edit and assemble videos from an editable plan.json.
 
 ## Security
 
