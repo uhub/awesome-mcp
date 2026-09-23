@@ -697,6 +697,7 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [robdodson/ollama-mcp-db](https://github.com/robdodson/ollama-mcp-db) - An interactive chat interface that combines Ollama's LLM capabilities with PostgreSQL database access through the Model Context Protocol (MCP).
 * [grab/TalkToFigmaDesktop](https://github.com/grab/TalkToFigmaDesktop) - A powerful desktop application bridging Figma and AI tools via Model Context Protocol Seamless integration between Figma designs and AI assistants
 * [lissettecarlr/kuon](https://github.com/lissettecarlr/kuon) - 久远：一个开发中的大模型语音助手，当前关注易用性，简单上手，支持对话选择性记忆和Model Context Protocol (MCP)服务。 KUON:A large language model-based voice assistant under development, currently focused on ease of use and simple onboarding. It supports selective memory in conversations and the Model Context Protocol (MCP) service.
+* [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) - Open-source, local-first desktop AI workforce whose Commander coordinates specialist agents with MCP tools and private per-agent skills and memory.
 
 ## Graphics and Media
 
