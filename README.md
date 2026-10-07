@@ -583,6 +583,7 @@ A curated list of awesome MCP frameworks, libraries and software.
 * [aiurda/devcontext](https://github.com/aiurda/devcontext) - DevContext is a cutting-edge Model Context Protocol (MCP) server designed to provide developers with continuous, project-centric context awareness. Unlike traditional context systems, DevContext continuously learns from and adapts to your development patterns and delivers highly relevant context providing a deeper understanding of your codebase.
 * [redstone-md/Continuum](https://github.com/redstone-md/Continuum) - A persistent, multi-agent Model Context Protocol (MCP) server. Continuum gives AI coding agents — Claude Code, OpenCode, Codex, Gemini CLI — a shared, live view of a codebase and a memory that survives across agents and sessions.
 * [MarceloCaporale/codex-agent-mem](https://github.com/MarceloCaporale/codex-agent-mem) - Local-first Model Context Protocol (MCP) memory layer for Codex CLI/Desktop, Claude Code, Gemini CLI, Qwen/DeepSeek/Ollama and agent workflows. SQLite + FTS5 compact context packs, token savings, read-only mode, no external memory server.
+* [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) - MCP access to searchable screen text and audio transcripts captured by a running Screenpipe instance. Source available under the Screenpipe Commercial License; configured cloud services and connected AI clients can send context off-device.
 
 ### Evaluation and Benchmarks
 
